@@ -1,0 +1,186 @@
+/* sign up form */ 
+#login_error, #name_error, #email_error {
+    background: none repeat scroll 0 0 red;
+    color: #FFFFFF;
+    display: none;
+	padding:10px;
+}
+#contactWrapper {
+	width:430px; 
+	border:1px solid #e2e2e2;
+	background:#f1f1f1;
+	padding:20px;
+}
+#contactWrapper div {
+	clear:both;
+	margin:1em 0;
+}
+#contactWrapper label {
+	display:block;
+	float:none;
+	font-size:16px;
+	width:auto;
+}
+form#contactform input {
+	border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+	font-size:16px;
+	color:#333;
+}
+form#contactform textarea {
+	font-family:Arial, Tahoma, Helvetica, sans-serif;
+	font-size:100%;
+	padding:0.6em 0.5em 0.7em;
+	border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style:solid;
+	border-width:1px;
+}
+
+form#contactform submit {
+	background-color:#e96407;
+	border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style:solid;
+	border-width:1px;
+}
+
+/* other home page styles */ 
+.infopl{
+	 
+	width:964px;
+	margin:0px 0 0 0px;
+}
+.gallery{
+	margin:0 0 18px;
+}
+.gallery ul{
+	margin:0;
+	padding:0;
+	
+	
+	list-style:none;
+}
+.switcher{
+	width:100%;
+	overflow:hidden;
+}
+.switcher ul{
+	float:right;
+	margin:0 10px 4px 0;
+}
+.switcher li{
+	float:left;
+	margin:0 3px;
+}
+.switcher a{
+	display:block;
+	height:17px;
+	text-align:center;
+	font-size:12px;
+	line-height:17px;
+}
+.switcher .active{
+	margin:0;
+}
+.switcher .active a{
+	width:16px;
+	background:url(/sites/all/themes/playonblue/playlater/sprite.png) -258px -73px no-repeat;
+}
+.gallery .wrapp{
+	width:964px;
+	overflow:hidden;
+}
+.gallery .wrapp ul{
+	width:9999px;
+}
+.gallery .wrapp li{
+	float:left;
+}
+
+.home-signup a, .home-signup a:hover {
+	/*color:#000;*/
+	text-decoration:none;
+}
+.signup-on {
+	background-image:url('/sites/all/themes/playonblue/images/icn-news-chatbubble-on.png'); 
+	background-repeat:no-repeat; 
+	background-position:top left;
+	width:472px;font-size:13px; 
+	margin:10px 0px 0px 40px; 
+	padding:0px 0px 0px 30px;
+        height:27px;
+
+}
+.signup-off {
+	background-image:url('/sites/all/themes/playonblue/images/icn-news-chatbubble.png'); 
+	background-repeat:no-repeat; 
+	background-position:top left; 
+	width:472px;font-size:13px; 
+	margin:10px 0px 0px 40px; 
+	padding:0px 0px 0px 30px;
+        height:27px;
+}
+div#preload { display: none; }
+
+a.presslink, a.presslink:visited { color:#333; text-decoration:underline}
+
+
+#header {
+	 min-height: 20px;
+}
+
+.section {
+	padding: 10px 0 10px;
+}
+.introMargins {
+	margin-left:25px; margin-top:-15px
+}
+div.promo div.intro div.excerpt, h1.excerpt  {
+	font-size:25px; font-weight:normal; line-height:33px;padding:20px 0px
+}
+/* sale tile */
+.saleTile {
+	background:url('images/bg-saletile-home-2.png') no-repeat;
+	width:423px;
+	height:128px
+}
+.saleTile .saleTile-content {
+	padding:5px 30px 0px 50px; text-align: center;
+}
+.saleTile-content h4 {
+	color:#de0a0a;font-size:13px; text-transform:uppercase
+}
+.saleTile-content .teaser {
+	color:#333;font-size:18px;
+}
+.saleTile-content .teaser-button {
+	margin:10px 0px
+}
+
+.saleTile-content .additional-info {
+	color:#062942;font-size:12px
+}
+.press-box {
+	background:url(images/bg-press-home.png) no-repeat; width:960px; height:60px; margin-bottom: 35px;
+}
+.press-box-content {
+	font-size: 15px; padding: 5px 0 0; text-align: center;
+}
+div.promo div.section {
+	padding-bottom:20px
+}
+.info-pl {
+	padding-bottom:35px
+}
+.signupform-box {
+	background:url(/buy/images/ ) no-repeat;width:500px;margin-top:0px;padding:20px;min-height:300px
+}
+.signupform-box-padding {
+	padding:10px
+}
+.disclosure {
+	font-size:12px;color:#666
+}
+ 
+ 
